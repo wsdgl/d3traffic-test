@@ -1,0 +1,192 @@
+{
+  "center": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "showRoadName": true,
+  "isDrawLaneDividers": true,
+  "isTurnDirections": true,
+  "showLight": false,
+  "streets": [
+    {
+      "angle": 202.04,
+      "ins": [
+        {
+          "directions": [
+            "LEFT_STRAIGHT_RIGHT"
+          ]
+        }
+      ],
+      "outs": 1,
+      "length": 1000,
+      "laneWidth": 40,
+      "isInsBool": true,
+      "isOutBool": true,
+      "name": "无名道路",
+      "showRoadName": true,
+      "isTurnDirections": true,
+      "queueIns": [
+        {
+          "frid": "12D7N0AFUA012D930AG1100",
+          "trid": "12D930AG11012D6U0AG1G00",
+          "turnDur": 1,
+          "choose": true
+        },
+        {
+          "frid": "12D7N0AFUA012D930AG1100",
+          "trid": "12D930AG11012D7N0AFUA00",
+          "turnDur": 4,
+          "choose": true
+        },
+        {
+          "frid": "12D7N0AFUA012D930AG1100",
+          "trid": "12D930AG11012D9B0AG1O00",
+          "turnDur": 2,
+          "choose": true
+        },
+        {
+          "frid": "12D7N0AFUA012D930AG1100",
+          "trid": "12D930AG11012D9V0AG0R00",
+          "turnDur": 3,
+          "choose": true
+        }
+      ],
+      "reverseRids": {
+        "12D930AG11012D7N0AFUA00": "12D930AG11012D7N0AFUA0001011"
+      }
+    },
+    {
+      "angle": 284.14,
+      "ins": [
+        {
+          "directions": [
+            "LEFT_STRAIGHT"
+          ]
+        },
+        {
+          "directions": [
+            "STRAIGHT"
+          ]
+        }
+      ],
+      "outs": 2,
+      "length": 1000,
+      "laneWidth": 40,
+      "isInsBool": true,
+      "isOutBool": true,
+      "name": "３２３省道",
+      "queueIns": [
+        {
+          "frid": "12D6J0AG1H012D930AG1100",
+          "trid": "12D930AG11012D6U0AG1G00",
+          "turnDur": 4,
+          "choose": true
+        },
+        {
+          "frid": "12D6J0AG1H012D930AG1100",
+          "trid": "12D930AG11012D9B0AG1O00",
+          "turnDur": 1,
+          "choose": true
+        },
+        {
+          "frid": "12D6J0AG1H012D930AG1100",
+          "trid": "12D930AG11012D9V0AG0R00",
+          "turnDur": 2,
+          "choose": true
+        }
+      ],
+      "reverseRids": {
+        "12D930AG11012D6U0AG1G00": "12D930AG11012D6U0AG1G0001011"
+      }
+    },
+    {
+      "angle": 377.2,
+      "ins": [
+        {
+          "directions": [
+            "LEFT_STRAIGHT_RIGHT"
+          ]
+        }
+      ],
+      "outs": 1,
+      "length": 1000,
+      "laneWidth": 40,
+      "isInsBool": true,
+      "isOutBool": true,
+      "name": "文颖线",
+      "queueIns": [
+        {
+          "frid": "12D9B0AG1O012D930AG1100",
+          "trid": "12D930AG11012D6U0AG1G00",
+          "turnDur": 3,
+          "choose": true
+        },
+        {
+          "frid": "12D9B0AG1O012D930AG1100",
+          "trid": "12D930AG11012D7N0AFUA00",
+          "turnDur": 2,
+          "choose": true
+        },
+        {
+          "frid": "12D9B0AG1O012D930AG1100",
+          "trid": "12D930AG11012D9B0AG1O00",
+          "turnDur": 4,
+          "choose": true
+        },
+        {
+          "frid": "12D9B0AG1O012D930AG1100",
+          "trid": "12D930AG11012D9V0AG0R00",
+          "turnDur": 1,
+          "choose": true
+        }
+      ],
+      "reverseRids": {
+        "12D930AG11012D9B0AG1O00": "12D930AG11012D9B0AG1O0001011"
+      }
+    },
+    {
+      "angle": 464.12,
+      "ins": [
+        {
+          "directions": [
+            "STRAIGHT_BACK"
+          ]
+        },
+        {
+          "directions": [
+            "STRAIGHT_RIGHT"
+          ]
+        }
+      ],
+      "outs": 2,
+      "length": 1000,
+      "laneWidth": 40,
+      "isInsBool": true,
+      "isOutBool": true,
+      "name": "３２３省道",
+      "queueIns": [
+        {
+          "frid": "12DDF0AG03012D930AG1100",
+          "trid": "12D930AG11012D6U0AG1G00",
+          "turnDur": 2,
+          "choose": true
+        },
+        {
+          "frid": "12DDF0AG03012D930AG1100",
+          "trid": "12D930AG11012D9B0AG1O00",
+          "turnDur": 3,
+          "choose": true
+        },
+        {
+          "frid": "12DDF0AG03012D930AG1100",
+          "trid": "12D930AG11012D9V0AG0R00",
+          "turnDur": 4,
+          "choose": true
+        }
+      ],
+      "reverseRids": {
+        "12D930AG11012D9V0AG0R00": "12D930AG11012D9V0AG0R0001011"
+      }
+    }
+  ]
+}

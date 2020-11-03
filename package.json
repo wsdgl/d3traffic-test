@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "d3traffic": "^1.0.27",
+    "react": "^15.3.0",
+    "react-dom": "15.3.0",
+    "react-scripts": "3.0.1",
+    "vue": "^2.6.11",
+    "vuera": "^0.2.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
