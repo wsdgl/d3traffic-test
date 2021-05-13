@@ -9,16 +9,19 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Container /> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+// import Container from './components/container'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+    // Container
   }
 }
 </script>

@@ -14,7 +14,11 @@
         {
           "directions": [
             "LEFT_STRAIGHT_RIGHT"
-          ]
+          ],
+          "editRoadColor": "#ff8a00",
+          "editDirectionColor": "rgb(100, 98, 155)",
+          "choose": true,
+          "chooseDirection": true
         }
       ],
       "outs": 1,
@@ -26,30 +30,7 @@
       "showRoadName": true,
       "isTurnDirections": true,
       "queueIns": [
-        {
-          "frid": "12D7N0AFUA012D930AG1100",
-          "trid": "12D930AG11012D6U0AG1G00",
-          "turnDur": 1,
-          "choose": true
-        },
-        {
-          "frid": "12D7N0AFUA012D930AG1100",
-          "trid": "12D930AG11012D7N0AFUA00",
-          "turnDur": 4,
-          "choose": true
-        },
-        {
-          "frid": "12D7N0AFUA012D930AG1100",
-          "trid": "12D930AG11012D9B0AG1O00",
-          "turnDur": 2,
-          "choose": true
-        },
-        {
-          "frid": "12D7N0AFUA012D930AG1100",
-          "trid": "12D930AG11012D9V0AG0R00",
-          "turnDur": 3,
-          "choose": true
-        }
+      
       ],
       "reverseRids": {
         "12D930AG11012D7N0AFUA00": "12D930AG11012D7N0AFUA0001011"

@@ -7,17 +7,30 @@
 -->
 <template>
   <div class="hello">
-    <Aspects :data="model" :showRoadName="true" :isTurnDirections="true"/>
+    <Aspects :data="model" :width="600" :height="600" :showRoadName="true" :isTurnDirections="true">
+      <Plugin :zIndex="12" >
+          <div
+            :origin="'in_1_1_left'" 
+            :id="'name_1_1'" 
+            style="background: red;width:20;height: 30"
+          >
+            测试
+          </div>
+      </Plugin>
+    </Aspects>
   </div>
 </template>
 
 <script>
 import {Aspects} from 'd3traffic';
+// import {Plugin} from 'd3traffic';
+// import Plugin from 'd3traffic'
 import model from "./model.json";
 export default {
   name: 'HelloWorld',
   components: {
-    Aspects
+    Aspects,
+    Plugin: Aspects.Plugin
   },
   props: {
     msg: String
@@ -26,6 +39,13 @@ export default {
     return {
       model: model
     }
+  },
+  created() {
+    console.log("Plugin", Aspects.Plugin);
+  },
+  mounted() {
+    this.$forceUpdate();
+    this.model = model;
   }
 }
 </script>
